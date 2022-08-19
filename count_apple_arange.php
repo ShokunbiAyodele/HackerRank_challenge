@@ -25,7 +25,7 @@ function countApplesAndOranges($s, $t, $a, $b, $apples, $oranges) {
     echo "$totalApple\n";
     
       foreach($oranges as $orange){
-        $orangedistance = $a + $orange;
+        $orangedistance = $b + $orange;
         if($orangedistance >= $s && $orangedistance <= $t){
             $totalOrange++;
         }
